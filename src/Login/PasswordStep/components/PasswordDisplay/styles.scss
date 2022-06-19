@@ -1,0 +1,46 @@
+.password-display {
+  &-container {
+    display : flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-bottom: 20px;
+  }
+
+  &-outer {
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 18px;
+    border: 2px solid #53535332;
+    transition-duration: 0.3s;
+  }
+
+  &-outer-active {
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 18px;
+    border: 2px solid #07b2fd;
+    transition-duration: 0.3s;
+  }
+
+  &-inner {
+    height: 10px;
+    width: 10px;
+    background-color: #53535332;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  &-inner-active {
+    height: 10px;
+    width: 10px;
+    background-color: #07b2fd;
+    border-radius: 50%;
+    display: inline-block;
+  }
+}
